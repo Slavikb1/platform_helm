@@ -1,0 +1,13 @@
+deployment:
+  replicas: 2
+  weather:
+    image:
+      repository: slavikb/weatherapp
+      tag: "184"
+kubernetesClusterDomain: cluster.local
+service:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 5000
+  type: ClusterIP
