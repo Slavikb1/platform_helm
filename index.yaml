@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  application:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2024-06-13T15:00:47.390839436+03:00"
+    description: A Helm chart for Kubernetes
+    digest: 2d06154daca424170d33bb2ea13c9404156638c8658bf23ed2b0b5bc320a6adc
+    name: application
+    type: application
+    urls:
+    - https://github.com/Slavikb1/platform_helm/application-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-06-13T15:00:47.390530696+03:00"
