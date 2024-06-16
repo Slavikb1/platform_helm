@@ -2,7 +2,7 @@ deployment:
   replicas: 2
   weather:
     image:
-      repository: slavikb/weatherapp
+      repository: slavikb/platform_eng
       tag: "184"
 kubernetesClusterDomain: cluster.local
 service:
