@@ -3,7 +3,7 @@ deployment:
   weather:
     image:
       repository: slavikb/platform_eng
-      tag: "184"
+      tag: "latest"
 kubernetesClusterDomain: cluster.local
 service:
   ports:
