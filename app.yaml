@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: weather
-        image: slavikb/weatherapp:184
+        image: slavikb/platform_eng:latest
         ports:
         - containerPort: 5000
 ---
